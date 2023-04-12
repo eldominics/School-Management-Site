@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="./welcome.html">Spring Flowers</a></div>
+            <div class="menu-div "  id="menu-id"onclick="toggler()"><i class="material-icons">menu</i></div> 
+            <div class="close-div " id="close-id" onclick="toggleOff()"><i class="material-icons">close</i></div>
+
+            <div class="main-menu toggle-item" >
+                <ul>
+                    
+                    <a href="time_table.html" ><li>Time Table</li></a>
+                    <a href="./exam_results.html" ><li>Exam Result</li></a>
+                    <a href="extra_activities.html" ><li>Extra Activity</li></a>
+                    <a href="student_profile.html"><li>My Profile</li></a>
+                    
+                </ul>
+            </div>
+            <div class="side-menu toggle-item">
+                <a href="student_profile.html" class="profile-name" id="user"></a>  
+                <a class="logout" href="index.html">Logout</a> 
+            </div>
+            
+            
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h2 class="first-h2">Learning Centre</h2>
+                <h2 class="second-h2">Education We Seek </h2>
+                <p class="para1">The best way to advance a civilization is to contribute
+                    immensely to the society. To contribute to the society, We
+                    invest in the family. The future of the family lies in our youths. That is why Spring Flower
+                    is here. To bring that needed training that our young need.... 
+                </p>
+            
+            </div>
+            <img src="./images/girl.png" alt="a girl on books" width="800px" height="450px"/>
+        </div>
+    </section>
+
+    <article class="article1">
+        <div class="article-container">
+            <div class="box box1">
+                <h3>Scholarships</h3>
+                <p>We understand the importance of quality yet accessible education. We want our students
+                    to study with peace of mind without having to worry about fees. We have different 
+                    categories of Scholarships that will ease students financial burden. Be sure to check them out.
+                </p>
+            </div>
+            <div class="box box2 ">
+                <h3>Events</h3>
+                <p>Opportunities abound in the sort of relationship you create, 
+                    share or support. School events provide the avenue you need to meet people from different walks 
+                    of life, share ideas and build practical solutions. Our upcoming events can be seen here. 
+                    Watch out for them.
+                </p>
+            </div>
+            <div class="box box3">
+                <h3>Workshops</h3>
+                <p>Theoretical knowledge is great but the fruits thereof can often be seen in its 
+                    practical application. At our workshops organized by different alumni groups,
+                    you will gain practical experience in your fields. You will be taught the 
+                    industry best practices here.
+                </p>
+            </div>
+
+        </div>
+    </article>
+
+    <section class="activity-section" id="activity-section1">
+        <h2>Students' Activities</h2>
+        <div class="activity-class-container" id="activity-id-container">
+            <!-- the texts I used to test what the incoming divs with the activity-class-box will look like-->
+            <!-- <div id="activity-id-box" class="activity-class-box">
+            
+                <h3 id="target-title">Activity Title</h3>
+                <p id="target-description">Today I woke up at about 6am , brushed my teeth, combed my hair and
+                    picked up my sleeves and shorts and headed for the streets. 
+                    I did some warm up moves like pushups, pressups and squats.
+                    I felt the rush of adrenaline in my blood and knew it was time to do the main thing. 
+                    I tied my shoe laces firmly and set off at a speed that could take off a plane. I ran for about half an hour
+                    and decided it was time to stop.
+                </p>
+                
+            </div> -->
+             
+            
+            
+                
+        </div>       
+            
+
+            
+    </section>
+    
+
+
+    <footer>
+        <div class="footer-container">
+            <p> <span class="logo-name">Spring Flower </span>  &copy;  Rights Reserved. Created By    <span class="footer-name">Dominic Ebere 2023</span></p>
+        </div>
+    </footer>
+    
+    
+
+    <script src="./scripts/frontendscript.js"></script>
+    <script src="./scripts/interact.js" ></script>
+    
+    <script>
+        displayActivity();
+
+        
+
+        
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+    "studentPersonal": [
+        {
+            "id": 1,
+            "studClass" : "MCA1234",
+            "name": "Dominic Ebere",
+            "userName": "Dominic",
+            "password": "Dom",
+            "imageSrc": "images/dom.png",
+            "email": "Dominicebere@1234.com",
+            "projects": ["FrontendDev", "Javascript Programming", "Java Advanced"],
+            "subjects": [
+                {
+                "maths": {"marks": 90, "grade": "A+"},
+                "physics": {"marks": 60, "grade": "B"},
+                "biology": {"marks": 99, "grade": "A+"},
+                "chemistry": {"marks": 70, "grade": "B+"},
+                "tech101": {"marks": 89, "grade": "A"}
+                }
+            ]
+            
+        }, 
+        {
+            "id": 2,
+            "studClass": "MCA1234",
+            "name": "Alex Okonkwo",
+            "userName": "Alex",
+            "imageSrc": "images/dom1.jpg",
+            "password": "Alex",
+            "email": "Alexokonkwo@1234.com",
+            "projects": ["TechDev", "FullstackDev", "Backend"],
+            "subjects": [
+                {
+                "maths": {"marks": 70, "grade": "B+"},
+                "physics": {"marks": 65, "grade": "B"},
+                "biology": {"marks": 80, "grade": "A"},
+                "chemistry": {"marks": 75, "grade": "B+"},
+                "tech101": {"marks": 99, "grade": "A+"}
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "studClass": "MCA2021",
+            "name": "Sochie Cynthia",
+            "userName": "Sochie",
+            "password": "Sochiem",
+            "imageSrc": "images/dom.png",
+            "email": "Sochicynthia@1234.com",
+            "projects": ["TechDev", "FullstackDev", "Backend", "Arts"],
+            "subjects": [
+                {
+                "maths": {"marks": 60, "grade": "B"},
+                "physics": {"marks": 65, "grade": "B"},
+                "biology": {"marks": 70, "grade": "B+"},
+                "chemistry": {"marks": 76, "grade": "B+"},
+                "tech101": {"marks": 74, "grade": "B+"}
+                }
+            ]
+        }
+]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="./index.html">Spring Flowers</a></div>
+        </div>
+    </header>
+
+    <section class="general-form-section">
+        <div class="general-form-container">
+            <div class="general-form-heading">
+                <h2> Please Fill In Your Login Details</h2>
+            </div>
+            <div class="general-form-body">
+                <form action="" class="form">
+                    <div class="inp-txt"><input type="text" placeholder="Username" id="username" onfocus="hideLoginError()"></div>
+                    <div class="inp-txt"><input type="password" placeholder="Password" id="password" onfocus="hideLoginError()"></div>
+                    <button type="button" id ="login" class="btn-class"  onclick="userFetcher()"> Login </button>
+                </form>
+
+                <div id="login-error-display">Your Username or Password is incorrect</div>
+            </div>
+
+            
+
+        </div>
+    </section>
+    
+
+    <script src="./scripts/fetchdata.js"> </script>
+
+    </body>
+    </html>

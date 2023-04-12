@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="./welcome.html">Spring Flowers</a></div>
+            <div class="menu-div "  id="menu-id"onclick="toggler()"><i class="material-icons">menu</i></div> 
+            <div class="close-div " id="close-id" onclick="toggleOff()"><i class="material-icons">close</i></div>
+
+            <div class="main-menu toggle-item" >
+                <ul>
+                    
+                    <a href="time_table.html" class="visits"><li>Time Table</li></a>
+                    <a href="./exam_results.html" ><li>Exam Result</li></a>
+                    <a href="extra_activities.html" ><li>Extra Activity</li></a>
+                    <a href="student_profile.html"><li>My Profile</li></a>
+                    
+                </ul>
+            </div>
+            <div class="side-menu toggle-item">
+                <a href="student_profile.html" class="profile-name" id="user"></a>  
+                <a class="logout" href="index.html">Logout</a> 
+            </div>
+            
+            
+        </div>
+    </header>
+
+    <section class="table-section">
+        <div class="table-container">
+            <h2 class="table-heading">Time Table</h2>
+            <table class="time-table">
+                <thead>
+                    <tr>
+                       <th>Time</th>
+                       <th>Monday</th>
+                       <th>Tuesday</th>
+                       <th>Wednesday</th>
+                       <th>Thursday</th>
+                       <th>Friday</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9am</td>
+                        <td>Math</td>
+                        <td>Physics</td>
+                        <td>Biology</td>
+                        <td>Chemistry</td>
+                        <td>Tech101</td>
+                    </tr>
+                    <tr>
+                        <td>10am</td>
+                        <td>Tech</td>
+                        <td>Biology</td>
+                        <td>Physics</td>
+                        <td>Math</td>
+                        <td>Chemistry</td>
+                    </tr>
+                    <tr class="break-row" >
+                        <td colspan="6" class="break">Break</td>
+                    </tr>
+                    <tr>
+                        <td>1pm</td>
+                        <td>Chemistry</td>
+                        <td>Tech</td>
+                        <td>Math</td>
+                        <td>Physics</td>
+                        <td>Biology</td>
+                    </tr>
+
+                    <tr>
+                        <td>2pm</td>
+                        <td>Biology</td>
+                        <td>Math</td>
+                        <td>Chemistry</td>
+                        <td>Tech</td>
+                        <td>Physics</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p> <span class="logo-name">Spring Flower </span>  &copy;  Rights Reserved. Created By    <span class="footer-name">Dominic Ebere 2023</span></p>
+        </div>
+    </footer>
+    
+
+    <script src="./scripts/frontendscript.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="./welcome.html">Spring Flowers</a></div>
+            <div class="menu-div "  id="menu-id"onclick="toggler()"><i class="material-icons">menu</i></div> 
+            <div class="close-div " id="close-id" onclick="toggleOff()"><i class="material-icons">close</i></div>
+
+            <div class="main-menu toggle-item" >
+                <ul>
+                    
+                    <a href="time_table.html" ><li>Time Table</li></a>
+                    <a href="./exam_results.html" ><li>Exam Result</li></a>
+                    <a href="extra_activities.html" ><li>Extra Activity</li></a>
+                    <a href="student_profile.html" class="visits"><li>My Profile</li></a>
+                    
+                </ul>
+            </div>
+            <div class="side-menu toggle-item">
+                <a href="student_profile.html" class="profile-name" id="user"></a>  
+                <a class="logout" href="index.html">Logout</a> 
+            </div>
+            
+            
+        </div>
+    </header>
+
+    <section class="profile-section1">
+
+        <div class="container1">
+
+            <img src="" alt="student profile image" width="230px" height="300px" id="student-image">
+            <div class="basic-info">
+                <h2 id="student-name"></h2>
+                <p id="student-class"></p>
+                <p id="student-email"></p>
+                <p>Share Profile</p>
+
+            </div>  
+        </div>  
+    </section>
+
+    <section class="profile-section2">
+        <div class="profile-section2-heading"> Projects Completed</div>
+        <div class="container2">
+            
+            <div class="flex1" id="project-container">
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <p> <span class="logo-name">Spring Flower </span>  &copy;  Rights Reserved. Created By    <span class="footer-name">Dominic Ebere 2023</span></p>
+        </div>
+    </footer><footer>
+        <p> Copyright 2023 Spring Flower school</p>
+    </footer>
+
+    <script src="./scripts/frontendscript.js"></script>
+    <script src="./scripts/fetchdata.js"></script>
+    <script>
+        window.onload = () =>{
+            
+            profileData()
+        }
+    </script>
+    
+</body>
+</html>
